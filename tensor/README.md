@@ -16,7 +16,7 @@
 2. raw_data
 
 ## to设备常见写法
-'''python
+```python
 if torch.cuda.is_available():
     device = torch.device("cuda:0")
 else:
